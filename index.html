@@ -10,6 +10,9 @@
         scanMode: Dynamsoft.EnumScanMode.SM_MULTI_UNIQUE,
         showResultView: true,
         barcodeFormats: [Dynamsoft.DBR.EnumBarcodeFormat.BF_DATAMATRIX],
+        scannerViewConfig: {
+          showCloseButton: true
+        },
       });
       (async () => {
         // Launch the scanner and wait for the result
