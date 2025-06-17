@@ -7,12 +7,7 @@
       const barcodeScanner = new Dynamsoft.BarcodeScanner({
         // Please don't forget to replace YOUR_LICENSE_KEY_HERE
         license: "DLS2eyJoYW5kc2hha2VDb2RlIjoiMjM0ODEwLVRYbFhaV0pRY205cSIsIm1haW5TZXJ2ZXJVUkwiOiJodHRwczovL21sdHMuZHluYW1zb2Z0LmNvbSIsIm9yZ2FuaXphdGlvbklEIjoiMjM0ODEwIiwic3RhbmRieVNlcnZlclVSTCI6Imh0dHBzOi8vc2x0cy5keW5hbXNvZnQuY29tIiwiY2hlY2tDb2RlIjotMjA0MzA5ODk1NH0=",
-        scanMode: Dynamsoft.EnumScanMode.SM_MULTI_UNIQUE,
-        showResultView: true,
-        barcodeFormats: [Dynamsoft.DBR.EnumBarcodeFormat.BF_DATAMATRIX],
-        scannerViewConfig: {
-          showCloseButton: true
-        },
+        
       });
       (async () => {
         // Launch the scanner and wait for the result
